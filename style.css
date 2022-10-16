@@ -52,9 +52,7 @@ header {
   justify-content: space-between;
 }
 
-.left-section,
-.middle-section,
-.right-section {
+.section {
   width: 31.5%;
 }
 
@@ -107,4 +105,30 @@ img {
 }
 
 @media (max-width: 375px) {
+  header {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  article {
+    margin-bottom: 26px;
+  }
 }
